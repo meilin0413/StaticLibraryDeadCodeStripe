@@ -1,0 +1,3 @@
+
+LGSTATIC_FRAMEWORK_PATH = ${BUILD_DIR}/../../MLTestFramework/build/$(CONFIGURATION)/MLTestFramework.framework/MLTestFramework
+OTHER_LDFLAGS=-Xlinker -force_load ${LGSTATIC_FRAMEWORK_PATH}
